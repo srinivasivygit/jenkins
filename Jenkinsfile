@@ -15,13 +15,13 @@ pipeline {
 	stage('Test') { 
             steps {
                 // SECONDS stage 
-		echo ' Welcome SECOND stage to Jenkin Testing '
+		echo ' Welcome SECOND Test stage to Jenkin Testing '
             }
         }
 	stage('Deploy') { 
             steps {
                 //  THIRD stage 
-		echo ' Welcome THIRD stage to Jenkin  Deployment'
+		echo ' Welcome THIRD Depoloy stage to Jenkin  Deployment'
             }
         }
     }
