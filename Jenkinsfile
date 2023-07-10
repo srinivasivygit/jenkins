@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo ' Welcome to Jenkins declarative Pipe line Hello World'
+                echo ' Welcome to Jenkins declarative Pipe with Snipper Generator line Hello World '
                 git branch: 'main', credentialsId: 'fa59e055-66c1-401c-abcc-9a5fb41924c9', url: 'https://github.com/srinivasivygit/jenkins.git'
             }
         }
