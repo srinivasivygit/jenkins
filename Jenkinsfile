@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo 'Hello World'
+                echo ' Welcome to Jenkins declarative Pipe line Hello World'
             }
         }
     }
